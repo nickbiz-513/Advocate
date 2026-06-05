@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arjun S. Mehta — Advocate, Supreme Court of India. Chambers based in New Delhi." />
+  <title>Arjun S. Mehta — Advocate, Supreme Court of India</title>
+
+  <!-- Google Fonts: Cormorant Garamond (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       BCI DISCLAIMER MODAL (renders first, blocks page)
+       ============================================================ -->
+  <div id="disclaimer-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-label">Important Notice</div>
+      <h2 class="modal-title" id="modal-title">Disclaimer</h2>
+      <div class="modal-rule"></div>
+      <p class="modal-body">
+        As per the rules of the <strong>Bar Council of India</strong>, advocates are not permitted to
+        solicit work or advertise. By clicking <em>"I Agree &amp; Proceed"</em>, you acknowledge the following:
+      </p>
+      <ul class="modal-list">
+        <li>There has been no advertisement, personal communication, solicitation, invitation, or inducement of any sort whatsoever from the Advocate or any member of the chambers to solicit work through this website.</li>
+        <li>You wish to gain more information about this chambers for your own personal information and use only.</li>
+        <li>Any information obtained or material downloaded from this website is at your complete volition, and use of this site does not create a lawyer-client relationship of any kind.</li>
+        <li>The Advocate is not liable for any consequence of any action taken by you in reliance on any material or information available on this website.</li>
+        <li>In all cases of legal issues, you must seek independent legal advice from a qualified practitioner.</li>
+      </ul>
+      <p class="modal-cookie">
+        We use cookies to enhance your experience. By proceeding, you agree to our use of cookies.
+      </p>
+      <div class="modal-actions">
+        <button id="modal-agree" class="btn-primary" aria-label="I agree and wish to proceed to the website">
+          I Agree &amp; Proceed
+        </button>
+        <button id="modal-disagree" class="btn-ghost-dark" aria-label="I do not agree">
+          I Do Not Agree
+        </button>
+      </div>
+      <p class="modal-compliance">
+        Displayed in compliance with Bar Council of India Rules, 1975 — Rule 36.
+      </p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       STICKY NAVIGATION
+       ============================================================ -->
+  <header id="site-header" role="banner">
+    <nav class="nav-inner" aria-label="Primary navigation">
+      <!-- Brand -->
+      <a href="#hero" class="nav-brand" aria-label="Arjun S. Mehta — Home">
+        <span class="nav-brand-name">Arjun S. Mehta</span>
+        <span class="nav-brand-sub">Advocate &amp; Solicitor</span>
+      </a>
+
+      <!-- Desktop nav links -->
+      <ul class="nav-links" role="list">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#practice">Practice Areas</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- CTA + hamburger -->
+      <div class="nav-right">
+        <a href="#contact" class="btn-nav" aria-label="Contact Chamber">Contact Chamber</a>
+        <button id="hamburger" class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile nav overlay -->
+    <div id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile navigation" aria-hidden="true">
+      <button id="mobile-close" class="mobile-close" aria-label="Close navigation menu">✕</button>
+      <ul class="mobile-links" role="list">
+        <li><a href="#profile" class="mobile-link">Profile</a></li>
+        <li><a href="#practice" class="mobile-link">Practice Areas</a></li>
+        <li><a href="#publications" class="mobile-link">Publications</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn-primary mobile-cta">Contact Chamber</a>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main id="main-content">
+
+    <!-- HERO ---------------------------------------------------- -->
+    <section id="hero" class="hero" aria-labelledby="hero-name">
+      <div class="hero-inner container">
+
+        <!-- Left: text content -->
+        <div class="hero-content fade-up">
+          <p class="hero-label" aria-label="Section label">Advocate, Supreme Court of India</p>
+          <div class="hero-rule" aria-hidden="true"></div>
+          <h1 class="hero-name" id="hero-name">
+            Arjun<br />
+            <em>S. Mehta</em>
+          </h1>
+          <p class="hero-qual">
+            LL.B (Hons), National Law School of India University, Bengaluru<br />
+            Enrolled: Bar Council of Delhi — Enrolment No. D/123/2001
+          </p>
+          <p class="hero-desc">
+            Practising before the Supreme Court of India, Delhi High Court, and various
+            tribunals. Chambers situated at New Delhi. Specialising in commercial
+            litigation, constitutional matters, and corporate advisory.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">Contact Chamber</a>
+            <a href="#profile" class="btn-ghost">View Profile</a>
+          </div>
+          <div class="hero-stats" aria-label="Key figures">
+            <div class="stat">
+              <span class="stat-num">23+</span>
+              <span class="stat-label">Years at Bar</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat-num">SC</span>
+              <span class="stat-label">Supreme Court</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat-num">4</span>
+              <span class="stat-label">Practice Areas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: portrait -->
+        <div class="hero-portrait fade-up fade-up--delayed" aria-hidden="true">
+          <div class="portrait-frame">
+            <div class="portrait-placeholder" role="img" aria-label="Professional portrait of Arjun S. Mehta">
+              <span class="portrait-initials">ASM</span>
+            </div>
+            <div class="portrait-badge">
+              <span class="badge-num">2001</span>
+              <span class="badge-text">Year of Enrolment</span>
+            </div>
+          </div>
+          <!-- Decorative corner marks -->
+          <div class="corner-tl" aria-hidden="true"></div>
+          <div class="corner-br" aria-hidden="true"></div>
+        </div>
+
+      </div>
+      <!-- Decorative section number -->
+      <span class="section-num" aria-hidden="true">01</span>
+    </section>
+
+    <!-- CREDENTIAL TICKER --------------------------------------- -->
+    <div class="ticker" aria-label="Professional affiliations and court admissions" role="complementary">
+      <div class="ticker-track" aria-hidden="true">
+        <span class="ticker-item">Bar Council of India</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Supreme Court of India</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Delhi High Court</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Bombay High Court</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">NCLT — New Delhi Bench</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Society of Indian Law Firms</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">ICC Arbitration</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">DIAC Empanelled</span>
+        <span class="ticker-dot">·</span>
+        <!-- Repeat for seamless loop -->
+        <span class="ticker-item">Bar Council of India</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Supreme Court of India</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Delhi High Court</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Bombay High Court</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">NCLT — New Delhi Bench</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Society of Indian Law Firms</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">ICC Arbitration</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">DIAC Empanelled</span>
+        <span class="ticker-dot">·</span>
+      </div>
+    </div>
+
+    <!-- PROFILE ------------------------------------------------- -->
+    <section id="profile" class="section section--alt" aria-labelledby="profile-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">01 — Profile</p>
+          <h2 class="section-title" id="profile-heading">
+            Professional <em>Background</em>
+          </h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </div>
+
+        <div class="profile-grid">
+          <!-- Left: main bio -->
+          <div class="profile-bio reveal">
+            <p class="profile-text">
+              Arjun S. Mehta was called to the Bar in 2001 after graduating with honours
+              from the National Law School of India University, Bengaluru — one of India's
+              foremost institutions for legal education. He enrolled with the Bar Council of
+              Delhi and has since practised extensively before the Supreme Court of India,
+              the Delhi High Court, and several statutory tribunals.
+            </p>
+            <p class="profile-text">
+              His practice encompasses the full spectrum of commercial litigation, with
+              particular depth in insolvency proceedings under the Insolvency and Bankruptcy
+              Code (IBC), corporate advisory mandates, and constitutional matters. He has
+              appeared in several matters of national significance before the constitutional
+              benches of the Supreme Court.
+            </p>
+            <p class="profile-text">
+              He is a member of the Supreme Court Bar Association and the Delhi High Court
+              Bar Association, and is empanelled as an arbitrator with the Delhi International
+              Arbitration Centre (DIAC).
+            </p>
+          </div>
+
+          <!-- Right: structured credentials -->
+          <div class="profile-credentials reveal reveal--delayed">
+            <div class="credential-block">
+              <p class="credential-label">Education</p>
+              <p class="credential-value">LL.B (Hons), National Law School of India University, Bengaluru — 2001</p>
+            </div>
+            <div class="credential-block">
+              <p class="credential-label">Bar Council Enrolment</p>
+              <p class="credential-value">Bar Council of Delhi<br />Enrolment No. D/123/2001</p>
+            </div>
+            <div class="credential-block">
+              <p class="credential-label">Courts of Practice</p>
+              <ul class="credential-list">
+                <li>Supreme Court of India</li>
+                <li>Delhi High Court</li>
+                <li>Bombay High Court (as needed)</li>
+                <li>National Company Law Tribunal (NCLT)</li>
+                <li>Debt Recovery Tribunal (DRT)</li>
+                <li>Competition Commission of India (CCI)</li>
+              </ul>
+            </div>
+            <div class="credential-block">
+              <p class="credential-label">Memberships</p>
+              <ul class="credential-list">
+                <li>Supreme Court Bar Association</li>
+                <li>Delhi High Court Bar Association</li>
+                <li>Delhi International Arbitration Centre (Empanelled)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="section-num" aria-hidden="true">02</span>
+    </section>
+
+    <!-- PRACTICE AREAS ------------------------------------------ -->
+    <section id="practice" class="section" aria-labelledby="practice-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">02 — Areas of Practice</p>
+          <h2 class="section-title" id="practice-heading">
+            Practice <em>Areas</em>
+          </h2>
+          <div class="section-rule" aria-hidden="true"></div>
+          <p class="section-sub">
+            The following areas reflect the informational scope of this chambers.
+            All descriptions are purely informational and do not constitute
+            a guarantee of any specific outcome.
+          </p>
+        </div>
+
+        <div class="practice-grid">
+
+          <!-- Card 1 -->
+          <article class="practice-card reveal" aria-labelledby="practice-1">
+            <div class="card-num" aria-hidden="true">01</div>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 id="practice-1" class="card-title">Commercial Litigation</h3>
+            <div class="card-rule" aria-hidden="true"></div>
+            <p class="card-desc">
+              Representation in civil suits, commercial disputes, contractual
+              matters, and enforcement proceedings before the Supreme Court,
+              High Courts, and subordinate civil courts. Recovery suits, injunctions,
+              and declaratory reliefs.
+            </p>
+            <div class="card-tags" aria-label="Sub-areas">
+              <span class="tag">Civil Suits</span>
+              <span class="tag">Injunctions</span>
+              <span class="tag">Enforcement</span>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="practice-card reveal" style="--delay:100ms" aria-labelledby="practice-2">
+            <div class="card-num" aria-hidden="true">02</div>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-4 0v2"/><path d="M8 7V5a2 2 0 00-4 0v2"/><line x1="12" y1="12" x2="12" y2="17"/><line x1="9.5" y1="14.5" x2="14.5" y2="14.5"/></svg>
+            </div>
+            <h3 id="practice-2" class="card-title">Corporate Advisory</h3>
+            <div class="card-rule" aria-hidden="true"></div>
+            <p class="card-desc">
+              Legal advisory on corporate governance, mergers and acquisitions,
+              regulatory compliance, shareholders' agreements, and commercial
+              contracts. Opinions and advisory for boards and corporate entities.
+            </p>
+            <div class="card-tags" aria-label="Sub-areas">
+              <span class="tag">M&amp;A</span>
+              <span class="tag">Governance</span>
+              <span class="tag">Contracts</span>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="practice-card reveal" style="--delay:200ms" aria-labelledby="practice-3">
+            <div class="card-num" aria-hidden="true">03</div>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3 id="practice-3" class="card-title">Insolvency &amp; IBC</h3>
+            <div class="card-rule" aria-hidden="true"></div>
+            <p class="card-desc">
+              Proceedings under the Insolvency and Bankruptcy Code, 2016.
+              Representation before the National Company Law Tribunal (NCLT),
+              National Company Law Appellate Tribunal (NCLAT), and the Supreme
+              Court in insolvency-related appeals.
+            </p>
+            <div class="card-tags" aria-label="Sub-areas">
+              <span class="tag">NCLT</span>
+              <span class="tag">NCLAT</span>
+              <span class="tag">IBC 2016</span>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="practice-card reveal" style="--delay:300ms" aria-labelledby="practice-4">
+            <div class="card-num" aria-hidden="true">04</div>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+            </div>
+            <h3 id="practice-4" class="card-title">Arbitration &amp; ADR</h3>
+            <div class="card-rule" aria-hidden="true"></div>
+            <p class="card-desc">
+              Domestic and international commercial arbitration. Representation
+              in arbitration proceedings before DIAC, ICC, and ad hoc tribunals.
+              Enforcement of foreign arbitral awards under the New York Convention.
+            </p>
+            <div class="card-tags" aria-label="Sub-areas">
+              <span class="tag">DIAC</span>
+              <span class="tag">ICC</span>
+              <span class="tag">New York Convention</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+      <span class="section-num" aria-hidden="true">03</span>
+    </section>
+
+    <!-- PUBLICATIONS -------------------------------------------- -->
+    <section id="publications" class="section section--alt" aria-labelledby="pub-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">03 — Thought Leadership</p>
+          <h2 class="section-title" id="pub-heading">
+            Publications &amp; <em>Legal Updates</em>
+          </h2>
+          <div class="section-rule" aria-hidden="true"></div>
+          <p class="section-sub">
+            The following represent authored articles and legal research notes published
+            in peer-reviewed journals, legal databases, and institutional publications.
+          </p>
+        </div>
+
+        <div class="pub-list" role="list">
+
+          <article class="pub-item reveal" role="listitem" aria-labelledby="pub-1">
+            <div class="pub-meta">
+              <span class="pub-tag">Supreme Court</span>
+              <span class="pub-date">March 2024</span>
+            </div>
+            <h3 id="pub-1" class="pub-title">
+              Section 29A of the Insolvency and Bankruptcy Code: An Analysis of the
+              Supreme Court's Expanding Jurisprudence on Eligibility of Resolution Applicants
+            </h3>
+            <p class="pub-source">Published in: <em>SCC Online</em> — Supreme Court Cases Journal, Vol. 4</p>
+            <a href="#" class="pub-link" aria-label="View publication: Section 29A analysis">
+              View Publication <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="pub-item reveal" role="listitem" aria-labelledby="pub-2">
+            <div class="pub-meta">
+              <span class="pub-tag">Corporate Law</span>
+              <span class="pub-date">November 2023</span>
+            </div>
+            <h3 id="pub-2" class="pub-title">
+              Cross-Border Mergers under the Companies Act, 2013: Regulatory
+              Framework, Procedural Challenges, and the Path Forward
+            </h3>
+            <p class="pub-source">Published in: <em>National Law School of India Review</em>, Vol. 35, No. 2</p>
+            <a href="#" class="pub-link" aria-label="View publication: Cross-Border Mergers analysis">
+              View Publication <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="pub-item reveal" role="listitem" aria-labelledby="pub-3">
+            <div class="pub-meta">
+              <span class="pub-tag">Arbitration</span>
+              <span class="pub-date">July 2023</span>
+            </div>
+            <h3 id="pub-3" class="pub-title">
+              Enforcement of Foreign Arbitral Awards in India Post-BALCO: 
+              Revisiting Territoriality and the Narrow Public Policy Exception
+            </h3>
+            <p class="pub-source">Published in: <em>Indian Journal of Arbitration Law</em>, Vol. 11, No. 1</p>
+            <a href="#" class="pub-link" aria-label="View publication: Foreign Awards enforcement analysis">
+              View Publication <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="pub-item reveal" role="listitem" aria-labelledby="pub-4">
+            <div class="pub-meta">
+              <span class="pub-tag">Constitutional</span>
+              <span class="pub-date">February 2023</span>
+            </div>
+            <h3 id="pub-4" class="pub-title">
+              Article 226 and the Shrinking Writ Jurisdiction in Commercial Matters:
+              A Critical Appraisal of Recent High Court Decisions
+            </h3>
+            <p class="pub-source">Published in: <em>Bar and Bench</em> — Legal Commentary Series</p>
+            <a href="#" class="pub-link" aria-label="View publication: Article 226 analysis">
+              View Publication <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+      <span class="section-num" aria-hidden="true">04</span>
+    </section>
+
+    <!-- CONTACT ------------------------------------------------- -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Left: info -->
+          <div class="contact-info reveal">
+            <p class="section-label">04 — Contact</p>
+            <h2 class="section-title" id="contact-heading">
+              Contact <em>Chamber</em>
+            </h2>
+            <div class="section-rule" aria-hidden="true"></div>
+            <p class="contact-desc">
+              All enquiries are treated with absolute confidentiality. Please note
+              that submission of this form does not constitute the creation of an
+              advocate-client relationship.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-detail">
+                <span class="detail-label">Chamber Address</span>
+                <address class="detail-value">
+                  Chamber No. 412, Lawyers' Chambers<br />
+                  Supreme Court of India Annexe<br />
+                  New Delhi — 110 001
+                </address>
+              </div>
+              <div class="contact-detail">
+                <span class="detail-label">Telephone</span>
+                <a href="tel:+911123388000" class="detail-link">+91 11 2338 8000</a>
+              </div>
+              <div class="contact-detail">
+                <span class="detail-label">Email</span>
+                <a href="mailto:chambers@arjunsmehta.in" class="detail-link">chambers@arjunsmehta.in</a>
+              </div>
+              <div class="contact-detail">
+                <span class="detail-label">Chamber Hours</span>
+                <span class="detail-value">Monday to Saturday, 10:00 AM – 6:00 PM<br />(Court days subject to schedule)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: form -->
+          <div class="contact-form-wrap reveal reveal--delayed">
+            <form id="contact-form" class="contact-form" novalidate aria-labelledby="form-title">
+              <p class="form-title" id="form-title">Submit an Enquiry</p>
+
+              <div class="form-group">
+                <label for="full-name" class="form-label">Full Name <span class="required" aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="full-name"
+                  name="full_name"
+                  class="form-input"
+                  placeholder="Your full name"
+                  required
+                  autocomplete="name"
+                  aria-required="true"
+                />
+                <span class="form-error" id="name-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address <span class="required" aria-hidden="true">*</span></label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="you@example.com"
+                    required
+                    autocomplete="email"
+                    aria-required="true"
+                  />
+                  <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form-input"
+                    placeholder="+91 XXXXX XXXXX"
+                    autocomplete="tel"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="query-type" class="form-label">Nature of Query <span class="required" aria-hidden="true">*</span></label>
+                <select id="query-type" name="query_type" class="form-input form-select" required aria-required="true">
+                  <option value="" disabled selected>Select a practice area</option>
+                  <option value="commercial-litigation">Commercial Litigation</option>
+                  <option value="corporate-advisory">Corporate Advisory</option>
+                  <option value="insolvency-ibc">Insolvency &amp; IBC</option>
+                  <option value="arbitration">Arbitration &amp; ADR</option>
+                  <option value="other">Other / General Enquiry</option>
+                </select>
+                <span class="form-error" id="query-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Brief Overview of Matter <span class="required" aria-hidden="true">*</span></label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-input form-textarea"
+                  rows="4"
+                  placeholder="Please provide a brief, factual description of the legal matter..."
+                  required
+                  aria-required="true"
+                ></textarea>
+                <span class="form-error" id="message-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <!-- DPDP Act 2023 Consent (MANDATORY — never pre-ticked) -->
+              <div class="consent-block">
+                <label class="consent-label" for="dpdp-consent">
+                  <input
+                    type="checkbox"
+                    id="dpdp-consent"
+                    name="dpdp_consent"
+                    class="consent-checkbox"
+                    aria-required="true"
+                    aria-describedby="dpdp-error"
+                  />
+                  <span class="consent-custom" aria-hidden="true"></span>
+                  <span class="consent-text">
+                    I freely and explicitly consent to the collection and processing of my personal data
+                    for the specific purpose of this enquiry, in accordance with the
+                    <a href="#" class="consent-link">firm's Privacy Notice</a> and the
+                    <strong>Digital Personal Data Protection (DPDP) Act, 2023</strong>.
+                  </span>
+                </label>
+                <span class="form-error" id="dpdp-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn-primary btn-submit" aria-describedby="submit-notice">
+                Submit Enquiry
+              </button>
+
+              <!-- No attorney-client relationship notice -->
+              <p class="submit-notice" id="submit-notice">
+                Submission of this form does not constitute the creation of an advocate-client
+                relationship. Information provided is for general informational purposes only
+                and does not constitute legal advice.
+              </p>
+
+              <!-- Success message (hidden by default) -->
+              <div id="form-success" class="form-success" role="alert" aria-live="polite" hidden>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Your enquiry has been received. We will respond within 2–3 working days.
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <span class="section-num" aria-hidden="true">05</span>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer id="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand col -->
+        <div class="footer-brand">
+          <p class="footer-name">Arjun S. Mehta</p>
+          <p class="footer-sub">Advocate &amp; Solicitor<br />Supreme Court of India</p>
+          <address class="footer-address">
+            Chamber No. 412, Lawyers' Chambers<br />
+            Supreme Court of India Annexe<br />
+            New Delhi — 110 001
+          </address>
+        </div>
+
+        <!-- Quick links -->
+        <nav class="footer-col" aria-label="Footer navigation">
+          <p class="footer-col-title">Navigation</p>
+          <ul class="footer-links" role="list">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#practice">Practice Areas</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Practice -->
+        <div class="footer-col">
+          <p class="footer-col-title">Practice Areas</p>
+          <ul class="footer-links" role="list">
+            <li><a href="#practice">Commercial Litigation</a></li>
+            <li><a href="#practice">Corporate Advisory</a></li>
+            <li><a href="#practice">Insolvency &amp; IBC</a></li>
+            <li><a href="#practice">Arbitration &amp; ADR</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <p class="footer-col-title">Contact</p>
+          <ul class="footer-links" role="list">
+            <li><a href="tel:+911123388000">+91 11 2338 8000</a></li>
+            <li><a href="mailto:chambers@arjunsmehta.in">chambers@arjunsmehta.in</a></li>
+          </ul>
+          <p class="footer-hours">Mon–Sat, 10:00 AM – 6:00 PM</p>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar with full legal disclaimer -->
+      <div class="footer-bottom">
+        <p class="footer-disclaimer">
+          <strong>Legal Disclaimer:</strong> The contents of this website are for informational
+          purposes only and do not constitute legal advice, a legal opinion, or the creation
+          of an advocate-client relationship. No warranty is given as to the accuracy or
+          completeness of the information. All users are advised to seek independent legal
+          advice from a qualified practitioner in respect of any specific legal matter.
+          This website is not an advertisement or solicitation, and is displayed in
+          compliance with the Bar Council of India Rules, 1975.
+        </p>
+        <p class="footer-copy">© 2025 Arjun S. Mehta. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
