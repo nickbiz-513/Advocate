@@ -1,7 +1,7 @@
 /**
  * MERIDIAN LEGAL — script.js
- * Handles: BCI Disclaimer Modal · Navigation · Scroll Reveal ·
- *          Active Nav Links · Form Validation (DPDP Act 2023)
+ * Handles: NLC Disclaimer Modal · Navigation · Scroll Reveal ·
+ *          Active Nav Links · Form Validation (GDPR/CCPA)
  */
 
 'use strict';
@@ -11,7 +11,7 @@ const $ = (sel, ctx = document) => ctx.querySelector(sel);
 const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
 
 /* ============================================================
-   1. BCI DISCLAIMER MODAL
+   1. NLC DISCLAIMER MODAL
    Must appear on every first load. Cannot be dismissed
    by clicking outside. "I Do Not Agree" closes the tab.
    ============================================================ */
@@ -67,7 +67,7 @@ const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
     }
   });
 
-  // Prevent ESC from dismissing (BCI compliance — must be explicit choice)
+  // Prevent ESC from dismissing (NLC compliance — must be explicit choice)
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !modal.classList.contains('is-hidden')) {
       e.preventDefault();
@@ -219,7 +219,7 @@ const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
 /* ============================================================
    4. CONTACT FORM VALIDATION
    — Real-time field validation
-   — DPDP Act 2023 mandatory consent checkbox (unticked default)
+   — GDPR/CCPA mandatory consent checkbox (unticked default)
    — Submit disabled until consent ticked
    — On success: shows confirmation message
    ============================================================ */
@@ -308,11 +308,11 @@ const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
     });
   });
 
-  /* -- DPDP consent validation --------------------------- */
+  /* -- GDPR/CCPA consent validation --------------------------- */
   function validateDPDP() {
     const errorEl = $('#dpdp-error');
     if (!dpdpCheck.checked) {
-      if (errorEl) errorEl.textContent = 'You must provide explicit consent under the DPDP Act, 2023 to submit this form.';
+      if (errorEl) errorEl.textContent = 'You must provide explicit consent under the Global Data Privacy Regulations (GDPR/CCPA) to submit this form.';
       return false;
     }
     if (errorEl) errorEl.textContent = '';
